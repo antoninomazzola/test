@@ -1,0 +1,48 @@
+body {
+    margin: 0px; 
+    font-family: "Roboto", sans-serif; !important;
+    font-weight: 400 !important;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block; 
+}
+
+#home img {
+    height: 50px;
+    width: auto;
+}
+
+header {
+    background-color: blue;
+    color: #fff;
+}
+
+header, section {
+    padding: 5% 5% 0px 5%;
+}
+.whitelink {
+
+    color: #fff
+}
+
+.active{
+    color:blue;
+    background-color:white;
+    border-radius: 3px 3px 0px 0px;
+
+}
+
+.nonunderline {
+    text-decoration: none;
+    padding: 10px 10px 0px 10px ;
+}
+
+img {
+    opacity: 0.5;
+    transition: opacity .25s ease-in-out;
+}
+
+img:hover {
+    opacity: 1;
+}
